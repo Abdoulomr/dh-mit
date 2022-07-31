@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Direction Horticulaire</title>
+</head>
+<body>
+    <header>
+        <!-- La partie Logo -->
+            <a href="#" class="logo">D<span>H</span></a>
+        <!-- Fin de la partie logo -->
+
+        <div class="menu">
+            <i class="ri-menu-4-fill open"></i>
+            <i class="ri-close-line close"></i>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./index.html" class="nav__link">Accueil</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">A propos</a></li>
+            </ul>
+        </nav>
+
+        <!-- Fin de la navigation -->
+
+    </header>
+
+    <div class="hero">
+            <h1 class="title">Bienvenue sur le site de la<br>
+            <span class="title__span ">Direction Horticulaire</span></h1>
+            <img src="/dh.png" alt="" class="illustration">
+    </div>
+
+    <div class="services" id="services">
+
+        <div class="services__wrapper">
+
+            <h2 class="service__title">Services</h2>
+
+            <div class="service-box">
+                <i class="ri-line-chart-fill service-icon"></i>
+                <h3 class="service-title">La division du suivi et de l’analyse des marchés et des productions horticoles</h3>
+                <a href="./suivi.html" class="en-savoir-plus">En Savoir plus</a>
+            </div>
+    
+            <div class="service-box">
+                <i class="ri-file-list-3-line service-icon"></i>
+                <h3 class="service-title">La division de la règlementation et de promotion des filières horticoles</h3>
+                <a href="./reglementation.html" class="en-savoir-plus">En Savoir plus</a>
+            </div>
+
+            <div class="service-box">
+                <i class="ri-bank-line service-icon"></i>
+                <h3 class="service-title">Le bureau administratif et financier</h3>
+                <a href="./admin-finance.html" class="en-savoir-plus">En Savoir plus</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <h2 class="contact__title">Contact</h2>
+
+        <div class="contact__wrapper">
+
+            <div class="contact__left">
+
+                <h3 class="contact__left--title">Nous laisser un message !</h3>
+
+                <form action="">
+                    <input type="text" class="Name" placeholder="Prénom et Nom">
+                    <input type="email" placeholder="Adresse mail">
+                    <input type="text" placeholder="Objet">
+                    <textarea  placeholder="Message"></textarea>
+                    <button class="btn-submit">Envoyer</button>
+                </form>
+
+            </div>
+            <div class="contact__right">
+
+                <h3 class="contact__right--title">Nous contacter</h3>
+
+                <ul class="contact-info">
+                    <li class="contact-item">
+                        <img src="./assets/map-pin-line.svg" alt=""><span>Avenue Bourguiba</span>
+                    </li>
+
+                    <li class="contact-item">
+                        <img src="./assets/time-line.svg" alt=""><span>Lun-Ven 8h - 16h</span>
+                    </li>
+
+                    <li class="contact-item">
+                        <img src="./assets/phone-line.svg" alt=""><span>33 824 62 09</span>
+                    </li>
+                    <li class="contact-item">
+                        <img src="./assets/mail-line.svg" alt=""><span>E-mail</span>
+                    </li>
+                </ul>
+
+                <div class="sm__section">
+
+                    <h4 class="sm__title">Nous sommes aussi sur:</h4>
+
+                <ul class="social__media">
+
+
+                    <li class="sm__item">
+                        <a href="#" class="sm__link"><img src="./assets/facebook-box-fill.svg" alt=""></a>
+                    </li>
+
+                    <li class="sm__item">
+                        <a href="#" class="sm__link"><img src="./assets/twitter-fill.svg" alt=""></a>
+                    </li>
+
+                    <li class="sm__item">
+                        <a href="#" class="sm__link"><img src="./assets/linkedin-box-fill.svg" alt=""></a>
+                    </li>
+
+                    <li class="sm__item">
+                        <a href="#" class="sm__link"><img src="./assets/instagram-fill.svg" alt=""></a>
+                    </li>
+                </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
