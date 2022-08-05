@@ -333,13 +333,15 @@ textarea::placeholder {
         background-color: #238059;
         height: 100vh;
         max-height: 1000px;
-        min-height: 800px;
+        min-height: fit-content;
         justify-content: start;
         gap: 3rem;
         align-items: center;
         text-align: center;
+        padding-bottom: 2rem;
     }
 
+    
 
 
     .title {
@@ -439,13 +441,15 @@ textarea::placeholder {
         visibility: visible;
     }
 
-
+    .services {
+        padding: 0;
+    }
 
     .contact__wrapper {
         display: flex;flex-direction: column;
         width: fit-content;
         gap: 2rem;
-        margin: 5rem auto;
+        margin: 2rem auto;
         box-sizing: border-box;
         border-radius: 5px;
     }
@@ -453,7 +457,7 @@ textarea::placeholder {
     .contact__title {
         color: var(--primary-color);
         width: fit-content;
-        padding-top: 0;
+        padding-top: 1rem;
         margin: 0 auto;
     }    
 
