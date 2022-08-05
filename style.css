@@ -447,10 +447,12 @@ textarea::placeholder {
     .contact__left {
         margin: 0 auto;
         border-radius: 5px;
+        max-width: 90vw;
     }
 
     .contact__right {
         margin: 0 auto;
+        max-width: 90vw;
         margin-bottom: 2rem;
         border-radius: 5px;
     }
