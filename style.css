@@ -189,7 +189,7 @@ header {
 
 
 .contact__left {
-    padding: 3rem;
+    padding: 2rem;
     flex-basis: 50%;
     background-color: var(--primary-color);
 }
@@ -258,7 +258,7 @@ textarea::placeholder {
 
 .contact__right {
     flex-basis: 50%;
-    padding: 3rem;
+    padding: 2rem;
     background-color: var(--secondary-color);
 
 }
