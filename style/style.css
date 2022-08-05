@@ -383,6 +383,7 @@ textarea::placeholder {
         position: absolute;
         top: 0;
         right: -100%;
+        visibility: hidden;
         display: none;
         background: #fafafa;
         display: none;
@@ -392,7 +393,6 @@ textarea::placeholder {
         z-index: 101;
         margin-top: 50px;
         padding: 0 0 50px 0;
-        transition: .5s ease-in-out;
 
     }
 
@@ -400,6 +400,7 @@ textarea::placeholder {
     .nav__active {
         right: 0;
         display: block;
+        visibility: visible;
     }
 
 
