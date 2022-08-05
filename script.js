@@ -3,6 +3,8 @@ const open = document.querySelector('.open');
 const close = document.querySelector('.close');
 const nav = document.querySelector('.nav');
 
+
+// affiche le nav Menu 
 menu.addEventListener('click', () => {
     nav.classList.toggle('nav__active');
     open.classList.toggle('open__hidden');
@@ -10,7 +12,11 @@ menu.addEventListener('click', () => {
 });
 
 
+
+// Fermer la nav quand on clique sur un des lien de la navigation
+
 const navLinks = document.querySelectorAll('.nav__link');
+
 
 navLinks.forEach((navLink) => {
     navLink.addEventListener('click', () => {

@@ -84,17 +84,8 @@ header {
     text-align: center;
 }
 
-
-
-.illustration {
-    width: 70vh;
-    max-width: 90vw;
-    opacity: .8;
-    border: 5px solid #fafafa;
-}
-
 .title {
-    margin-top: 6rem;
+    margin-top: 3rem;
     font-family: 'Pacifico';
     width: fit-content;
     color: #fafafa;
@@ -105,6 +96,17 @@ header {
     color: #fafafa;
     font-family: 'Poppins';
 }
+
+
+.illustration {
+    width: 70vh;
+    max-width: 800px;
+    width: 90vw;
+    opacity: .8;
+    border: 5px solid #fafafa;
+}
+
+
 
 
 
@@ -277,11 +279,15 @@ textarea::placeholder {
 .contact-item{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .8rem;
 }
 
 .contact-item span{
     font-size: 18px;
+}
+
+.sm__section {
+    margin-top: 3.5rem;
 }
 
 .sm__title {
@@ -317,19 +323,26 @@ textarea::placeholder {
 
 @media screen and (max-width: 800px) {
 
-    
-
 
 
     .hero {
-        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        background-color: #238059;
+        height: 100vh;
+        max-height: 1000px;
+        min-height: 800px;
+        justify-content: start;
+        gap: 5rem;
+        align-items: center;
+        text-align: center;
     }
 
 
 
     .title {
+        margin-top: 6rem;
         font-size: calc(2vh + 2rem);
-        margin-top: 2rem;
 
     }
 
@@ -356,10 +369,10 @@ textarea::placeholder {
         display: none;
         width: 90vw;
         max-width: 600px;
-        height: fit-content;
+        height: 100vh;
         z-index: 101;
         margin-top: 70px;
-        padding: 100px 0;
+        padding: 0 0 50px 0;
         transition: .5s ease-in-out;
 
     }
@@ -399,7 +412,6 @@ textarea::placeholder {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #238059;
-
     }
 
 
