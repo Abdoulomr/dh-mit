@@ -335,7 +335,7 @@ textarea::placeholder {
         max-height: 1000px;
         min-height: fit-content;
         justify-content: start;
-        gap: 3rem;
+        gap: 1rem;
         align-items: center;
         text-align: center;
         padding-bottom: 2rem;
