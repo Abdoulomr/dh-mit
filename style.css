@@ -172,7 +172,6 @@ header {
     min-height: 800px;
     color: #fafafa;
     align-items: center;
-    background-color: aqua;
 }
 
 .contact__title {
@@ -452,8 +451,11 @@ textarea::placeholder {
     }
 
     .contact__title {
-        padding-top: 4rem;
-    }
+        color: var(--primary-color);
+        width: fit-content;
+        padding-top: 0;
+        margin: 0 auto;
+    }    
 
     .contact__left {
         margin: 0 auto;
