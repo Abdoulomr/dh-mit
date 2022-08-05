@@ -107,7 +107,21 @@ header {
     border: 5px solid #fafafa;
 }
 
+.container__ {
+    width: 90vw;
+    max-width: 800px;
+    padding: 2rem;
+    margin: 4rem auto;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 
+}
+
+.paragraph {
+    font-size: 1.rem;
+}
 
 
 
