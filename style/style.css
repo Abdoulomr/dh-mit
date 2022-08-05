@@ -162,6 +162,13 @@ header {
 
 .service-box .en-savoir-plus {
     color: var(--primary-color);
+    font-weight: 600;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.service-box .en-savoir-plus:hover {
+    opacity: .8;
 }
 
 
@@ -308,6 +315,10 @@ textarea::placeholder {
 .sm__item:hover {
     opacity: .8;
 }
+
+
+
+/* Autres pages Externes!! */
 
 
 
