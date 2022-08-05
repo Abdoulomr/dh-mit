@@ -117,7 +117,7 @@ header {
     color: #fafafa;
     height: 100vh;
     width: 100%;
-    padding-top: 70px;
+    padding: 70px 0;
     min-height: 800px;
 }
 
@@ -170,14 +170,16 @@ header {
     width: 100%;
     height: 100vh;
     min-height: 800px;
-    padding-top: 70px;
     color: #fafafa;
+    align-items: center;
+    background-color: aqua;
 }
 
 .contact__title {
     color: var(--primary-color);
     width: fit-content;
-    margin: 1rem auto 0 auto;
+    padding-top: 100px;
+    margin: 70px auto;
 }
 
 .contact__wrapper {
@@ -334,7 +336,7 @@ textarea::placeholder {
         max-height: 1000px;
         min-height: 800px;
         justify-content: start;
-        gap: 5rem;
+        gap: 3rem;
         align-items: center;
         text-align: center;
     }
@@ -342,10 +344,12 @@ textarea::placeholder {
 
 
     .title {
-        margin-top: 6rem;
+        margin-top: 2rem;
         font-size: calc(2vh + 2rem);
 
     }
+
+    
 
 
     header {
@@ -436,6 +440,8 @@ textarea::placeholder {
         visibility: visible;
     }
 
+
+
     .contact__wrapper {
         display: flex;flex-direction: column;
         width: fit-content;
@@ -443,6 +449,10 @@ textarea::placeholder {
         margin: 5rem auto;
         box-sizing: border-box;
         border-radius: 5px;
+    }
+
+    .contact__title {
+        padding-top: 4rem;
     }
 
     .contact__left {
@@ -456,6 +466,10 @@ textarea::placeholder {
         max-width: 90vw;
         margin-bottom: 2rem;
         border-radius: 5px;
+    }
+
+    .contact, .services, .hero {
+        height: fit-content;
     }
 
 }
